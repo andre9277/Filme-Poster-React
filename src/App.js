@@ -30,7 +30,8 @@ const App = () => {
       
     }
 
-    //Chamar a função getMoviesRequest, usamos um hook
+    //Chamar a função getMoviesRequest, usamos um hook---useEffect é sempre chamado no render() que passa o searchMovie, que é uma empty string
+    //,o request recebe o filme que o envia para o request -> vai para a resposta e conver em JSON. Se tivermos um resultado mostra o filme
     useEffect(()=>{
       getMovieRequest(searchMovie)//função vai ser chamada quando a página dá load
     }, [searchMovie]);//sempre que existe uma procura de um filme, quero fazer um request
