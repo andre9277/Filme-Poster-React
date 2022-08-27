@@ -7,3 +7,55 @@
   margin: 10px;
 }
 
+body{
+  background-color: rgba(0,0,0,0.8);
+}
+
+span{
+  color: aliceblue;
+}
+
+img {
+  float: left;
+  width:  300px;
+  height: 460px;
+  padding: 10px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 110px;
+  color: #777777;
+}
+input {
+  padding: 5px 10px;
+}
+
+.image-container{
+  position: relative;
+  transition: transform 0,2s;
+}
+
+.image-container:hover  {
+  cursor:pointer;
+  transform:scale(1.1);
+}
+
+.image-container:hover  .overlay {
+  opacity:1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(99, 96, 96, 0.8);
+  width:250px;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom:0;
+  font-size:20px;
+  padding:20px;
+  text-align: center;
+}

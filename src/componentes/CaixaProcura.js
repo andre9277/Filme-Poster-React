@@ -1,5 +1,4 @@
 import React from "react"
-import "./CaixaProcura.css"
 
 const CaixaProcura = (props) =>{
     return(
