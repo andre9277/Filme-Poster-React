@@ -5,7 +5,7 @@ const CaixaProcura = (props) =>{
         <div>
             <label for="movie">
                 <input 
-                    className="form" 
+                    class="cxProcura" 
                     placeholder="Escreva aqui o filme..."
                     value = {props.value}
                     onChange = {(event)=> props.setSearchMovie(event.target.value)}>
