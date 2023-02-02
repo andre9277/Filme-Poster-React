@@ -1,3 +1,3 @@
-# Aplicação de procura e visualização de um filme do interesse do utilizador.
+# Aplicação Para Procurar um filme
 
-Aplicação web que utiliza React e uma API para demonstrar o poster de um filme que o utilizador procure.
+Aplicação web implementada em React que utiliza uma API para demonstrar o poster de um filme que o utilizador deseje.
